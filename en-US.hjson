@@ -1,0 +1,77 @@
+Mods: {
+	Alterra: {
+		Items: {
+			AdvancedAlternator: {
+				DisplayName: Advanced Alternator
+				Tooltip: Reaches into parallel worlds to reverse items' essence
+			}
+
+			BasicAlternator: {
+				DisplayName: Basic Alternator
+				Tooltip: Reaches into parallel worlds to reverse ores' essence
+			}
+
+			PillarOfPain: {
+				DisplayName: Pillar Of Pain
+				Tooltip: Warning: Keep away from small childrens' foreheads
+			}
+
+			AsteriumFragment: {
+				DisplayName: Asterium Fragment
+				Tooltip: A raw piece of cosmic energy
+			}
+
+			OverclockFragment: {
+				DisplayName: Overclock Fragment
+				Tooltip:
+					'''
+					A raw piece of engineering energy
+					Can push some mechanisms far past their limits
+					'''
+			}
+
+			Supercrafter: {
+				DisplayName: Supercrafter
+				Tooltip: '''"So what do you want to craft?" "Yes."'''
+			}
+
+			PalladiumShield: {
+				DisplayName: Palladium Shield
+				Tooltip: Grants immunity to knockback
+			}
+
+			RepairedHeroSword: {
+				DisplayName: Repaired Hero Sword
+				Tooltip: '''"Should’ve made the toilet"'''
+			}
+
+			OverclockHook: {
+				DisplayName: Overclock Hook
+				Tooltip: ""
+			}
+
+			AsteriumHook: {
+				DisplayName: Asterium Hook
+				Tooltip: ""
+			}
+		}
+
+		Tiles: {
+			AdvancedAlternator.MapEntry: Advanced Alternator
+			BasicAlternator.MapEntry: Basic Alternator
+			Supercrafter.MapEntry: Supercrafter
+		}
+
+		Buffs: {
+			WoundDebuff: {
+				DisplayName: Wound
+				Description: Got hit in the head with a brick wall
+			}
+		}
+
+		Projectiles: {
+			OverclockHookProjectile.DisplayName: Overclock Hook Projectile
+			AsteriumHookProjectile.DisplayName: Asterium Hook Projectile
+		}
+	}
+}

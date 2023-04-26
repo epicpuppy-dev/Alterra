@@ -1,0 +1,12 @@
+This is Alterra. The alternate Terraria.
+Contains quality of life and some major additions.
+Make the alternator to get started.
+
+Dev Team
+EpicPuppy613 - Developer, Texture Artist
+noodleGJB - Mod Owner, Texture Artist
+totoeevee - Playtesting
+aster - Planning
+
+Join the discord server!
+https://discord.gg/JCFczNxYHv
