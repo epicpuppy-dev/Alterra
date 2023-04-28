@@ -12,8 +12,8 @@ namespace Alterra.Items.Placeable
         public override void SetDefaults()
         {
             Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Furniture.Supercrafter>());
-            Item.width = 32;
-            Item.height = 24;
+            Item.width = 64;
+            Item.height = 50;
             Item.value = 250000;
             Item.ResearchUnlockCount = 1;
             Item.rare = ItemRarityID.Red;

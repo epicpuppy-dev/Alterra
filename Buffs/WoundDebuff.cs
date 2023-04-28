@@ -23,7 +23,10 @@ namespace Alterra.Buffs
 
         public override void Update(Player player, ref int buffIndex)
         {
-            player.GetModPlayer<WoundDebuffPlayer>().hasWound = true;
+            if (player.lifeRegen > 0) player.lifeRegen = 0;
+
+            player.lifeRegenTime = 0;
+            player.lifeRegen -= 100;
         }
     }
 
@@ -41,11 +44,11 @@ namespace Alterra.Buffs
         {
             if (hasWound)
             {
-                damage = 20;
+                damage = 25;
 
                 if (npc.lifeRegen > 0) npc.lifeRegen = 0;
 
-                npc.lifeRegen -= 150;
+                npc.lifeRegen -= 100;
             }
         }
 
@@ -58,17 +61,6 @@ namespace Alterra.Buffs
         public override void ResetEffects()
         {
             hasWound = false;
-        }
-
-        public override void UpdateLifeRegen()
-        {
-            if (hasWound)
-            {
-                if (Player.lifeRegen > 0) Player.lifeRegen = 0;
-
-                Player.lifeRegenTime = 0;
-                Player.lifeRegen -= 150;
-            }
         }
     }
 }

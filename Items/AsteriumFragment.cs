@@ -11,12 +11,12 @@ namespace Alterra.Items
     {
         public override void SetDefaults()
         {
-            Main.RegisterItemAnimation(Item.type, new DrawAnimationVertical(6, 8));
+            Main.RegisterItemAnimation(Item.type, new DrawAnimationVertical(6, 12));
             ItemID.Sets.AnimatesAsSoul[Item.type] = true;
             ItemID.Sets.ItemNoGravity[Item.type] = true;
 
-            Item.width = 16;
-            Item.height = 16;
+            Item.width = 20;
+            Item.height = 20;
             Item.value = 10000;
             Item.maxStack = 9999;
             Item.ResearchUnlockCount = 25;
