@@ -28,10 +28,5 @@ namespace Alterra.Tiles.Furniture
             // name.SetDefault("Advanced Alternator");
             AddMapEntry(new Color(255, 200, 200), name);
         }
-
-        public override void KillMultiTile(int i, int j, int frameX, int frameY)
-        {
-            Item.NewItem(new EntitySource_TileBreak(i, j), i * 16, j * 16, 64, 48, ModContent.ItemType<Items.Placeable.Supercrafter>());
-        }
     }
 }
