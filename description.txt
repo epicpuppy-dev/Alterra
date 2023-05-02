@@ -1,12 +1,16 @@
-This is Alterra. The alternate Terraria.
-Contains quality of life and some major additions.
-Make the alternator to get started.
+This is Alterra. An alternate Terraria.
+In this mod, you will find:
+- Quality of life changes
+- Many new weapons for each class
+- New bosses
+- A entire new mode
+
+Please note that this mod is very early in it's development and many features are unimplemented.
 
 Dev Team
 EpicPuppy613 - Developer, Texture Artist
 noodleGJB - Mod Owner, Texture Artist
-totoeevee - Playtesting
-aster - Planning
+aster - Concept Art
 
 Join the discord server!
 https://discord.gg/JCFczNxYHv
