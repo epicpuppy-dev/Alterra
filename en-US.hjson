@@ -42,7 +42,7 @@ Mods: {
 
 			RepairedHeroSword: {
 				DisplayName: Repaired Hero Sword
-				Tooltip: '''"Should’ve made the toilet"'''
+				Tooltip: '''"Should've made the toilet"'''
 			}
 
 			OverclockHook: {
@@ -53,6 +53,16 @@ Mods: {
 			AsteriumHook: {
 				DisplayName: Asterium Hook
 				Tooltip: ""
+			}
+
+			Pen: {
+				DisplayName: Pen
+				Tooltip: May annoy a certain engineer
+			}
+
+			Screwdriver: {
+				DisplayName: Screwdriver
+				Tooltip: Screw this
 			}
 		}
 

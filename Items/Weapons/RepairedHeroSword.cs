@@ -18,7 +18,7 @@ namespace Alterra.Items.Weapons
             Item.useAnimation = 30;
             Item.useStyle = 1;
             Item.knockBack = 1;
-            Item.value = 200000;
+            Item.value = Item.sellPrice(gold: 20);
             Item.ResearchUnlockCount = 1;
             Item.rare = ItemRarityID.Cyan;
             Item.UseSound = SoundID.Item1;

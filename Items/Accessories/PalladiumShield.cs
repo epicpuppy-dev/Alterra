@@ -12,7 +12,7 @@ namespace Alterra.Items.Accessories
         {
             Item.width = 30;
             Item.height = 28;
-            Item.value = 17500;
+            Item.value = Item.sellPrice(gold: 1, silver: 75);
             Item.rare = ItemRarityID.Green;
             Item.accessory = true;
 

@@ -14,7 +14,7 @@ namespace Alterra.Items.Placeable
             Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Furniture.Supercrafter>());
             Item.width = 64;
             Item.height = 50;
-            Item.value = 250000;
+            Item.value = Item.sellPrice(gold: 25);
             Item.ResearchUnlockCount = 1;
             Item.rare = ItemRarityID.Red;
         }

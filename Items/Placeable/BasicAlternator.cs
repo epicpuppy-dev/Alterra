@@ -1,4 +1,4 @@
-﻿
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -16,7 +16,7 @@ namespace Alterra.Items.Placeable
             Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Furniture.BasicAlternator>());
             Item.width = 24;
             Item.height = 16;
-            Item.value = 7000;
+            Item.value = Item.sellPrice(silver: 70);
             Item.ResearchUnlockCount = 1;
             Item.rare = ItemRarityID.Blue;
         }

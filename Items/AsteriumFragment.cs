@@ -15,9 +15,9 @@ namespace Alterra.Items
             ItemID.Sets.AnimatesAsSoul[Item.type] = true;
             ItemID.Sets.ItemNoGravity[Item.type] = true;
 
-            Item.width = 20;
-            Item.height = 20;
-            Item.value = 10000;
+            Item.width = 40;
+            Item.height = 40;
+            Item.value = Item.sellPrice(gold: 1);
             Item.maxStack = 9999;
             Item.ResearchUnlockCount = 25;
             Item.rare = ModContent.RarityType<Rarities.AlternatingPurple>();

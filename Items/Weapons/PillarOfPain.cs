@@ -23,7 +23,7 @@ namespace Alterra.Items.Weapons
             Item.useAnimation = 45;
             Item.useStyle = 1;
             Item.knockBack = 6;
-            Item.value = 100000;
+            Item.value = Item.sellPrice(gold: 10);
             Item.ResearchUnlockCount = 1;
             Item.rare = 7;
             Item.UseSound = SoundID.Item1;

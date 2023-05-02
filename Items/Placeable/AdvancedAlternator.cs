@@ -18,7 +18,7 @@ namespace Alterra.Items.Placeable
             Item.DefaultToPlaceableTile(ModContent.TileType<Tiles.Furniture.AdvancedAlternator>());
             Item.width = 24;
             Item.height = 16;
-            Item.value = 7000;
+            Item.value = Item.sellPrice(gold: 2);
             Item.ResearchUnlockCount = 1;
             Item.rare = ModContent.RarityType<Rarities.AlternatingBlue>();
         }
@@ -26,7 +26,7 @@ namespace Alterra.Items.Placeable
         public override void AddRecipes()
         {
             CreateRecipe()
-                .AddIngredient(ModContent.ItemType<Items.Placeable.BasicAlternator>())
+                .AddIngredient(ModContent.ItemType<BasicAlternator>())
                 .AddIngredient(ItemID.SoulofNight, 5)
                 .AddIngredient(ItemID.SoulofLight, 5)
                 .AddTile(TileID.MythrilAnvil)

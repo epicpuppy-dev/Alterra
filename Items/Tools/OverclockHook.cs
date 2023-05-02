@@ -17,6 +17,7 @@ namespace Alterra.Items.Tools
             Item.shootSpeed = 24f; // This defines how quickly the hook is shot.
             Item.width = 28;
             Item.height = 34;
+            Item.value = Item.sellPrice(gold: 10);
             Item.shoot = ModContent.ProjectileType<OverclockHookProjectile>(); // Makes the item shoot the hook's projectile when used.
         }
 
