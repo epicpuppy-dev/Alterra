@@ -9,13 +9,13 @@ namespace Alterra.Items.Weapons
 
         public override void SetDefaults()
         {
-            Item.damage = 400;
+            Item.damage = 500;
             Item.DamageType = DamageClass.Melee;
             Item.width = 60;
             Item.height = 60;
             Item.scale = 1.2f;
-            Item.useTime = 20;
-            Item.useAnimation = 20;
+            Item.useTime = 30;
+            Item.useAnimation = 30;
             Item.useStyle = 1;
             Item.knockBack = 1;
             Item.value = 200000;
