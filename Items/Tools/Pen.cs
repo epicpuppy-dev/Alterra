@@ -1,9 +1,8 @@
-﻿
-using Terraria;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Alterra.Items
+namespace Alterra.Items.Tools
 {
     internal class Pen : ModItem
     {

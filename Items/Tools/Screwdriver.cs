@@ -1,11 +1,8 @@
-﻿
-using Terraria;
-using Terraria.DataStructures;
-using Terraria.GameContent.ItemDropRules;
+﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Alterra.Items
+namespace Alterra.Items.Tools
 {
     internal class Screwdriver : ModItem
     {
